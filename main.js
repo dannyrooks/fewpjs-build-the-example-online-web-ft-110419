@@ -4,6 +4,18 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
+let modal = document.getElementById("modal")
+modal.className = "hidden"
+
+let likeButtons = document.querySelectorAll("li.like")
+  likeButton.forEach(likeButton => {
+    likeButton.addEventListener('click', function() {
+      mimicServerCall(url = "http://mimicServer.example.com", config = {})
+      .then(function(response) {
+        return response;
+        })
+      });
+    })
 
 
 
